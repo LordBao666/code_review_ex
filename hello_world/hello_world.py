@@ -5,9 +5,13 @@
 """
 
 
-def h(name):
+def hello(name):
+    """
+    :param name:  打招呼的人
+    和 name 打招呼
+    """
     print("hello!" + str(name))
 
 
 if __name__ == '__main__':
-    h("jack")
+    hello("jack")
